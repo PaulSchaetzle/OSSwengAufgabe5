@@ -2,7 +2,7 @@ package de.hfu;
 import java.io.*;
 
 /**
- * Hello world!
+ * Class to convert given string to upper case
  *
  */
 public class App 
