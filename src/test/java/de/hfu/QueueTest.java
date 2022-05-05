@@ -10,15 +10,15 @@ public class QueueTest {
 		Queue fail = new Queue(0);
 	}
 	
-	Queue myQueue = new Queue(3);
-	
 	@Test(expected=IllegalStateException.class, timeout=1000)
 	public void testeQueueLeer() {
+		Queue myQueue = new Queue(3);
 		myQueue.dequeue();
 	}
 	
 	@Test
 	public void testeElementEinfuegen() {
+		Queue myQueue = new Queue(3);
 		myQueue.enqueue(2);
 		myQueue.enqueue(4);
 		myQueue.enqueue(5);
